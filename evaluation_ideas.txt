@@ -26,7 +26,7 @@ Wykrywanie Duplikatów:
     "Are there any duplicate rows in the dataset?"
 
 Ekstrakcja Wartości: 
-    "Extract the top 5 highest values from the fifth column."
+    "Extract the top 5 highest values from the first column."
 
 
 DATASETS IDEAS:

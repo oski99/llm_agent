@@ -1,0 +1,45 @@
+Ogólne Statystyki: 
+    "What are the basic statistical summaries for each column in the dataset?"
+
+Wyszukiwanie Anomalii: 
+    "Are there any outliers in the data? If so, in which columns?"
+
+Analiza Brakujących Danych: 
+    "Which columns have missing data and what is the percentage of missing data in those columns?"
+
+Wizualizacja Wzajemnych Zależności: 
+    "Choose two numerical columns. Can you create a scatter plot to show the relationship between them?"
+
+Wizualizacja Rozkładu: 
+    "Create a histogram for the third column in the dataset."
+
+Korelacje Między Kolumnami: 
+    "Which columns have the highest correlation?"
+
+Predykcja wartości: 
+    "Can you predict the values for the first column based on the other attributes?"
+
+Inżynieria Cech: 
+    "How would you apply feature engineering to improve the dataset?"
+
+Wykrywanie Duplikatów: 
+    "Are there any duplicate rows in the dataset?"
+
+Ekstrakcja Wartości: 
+    "Extract the top 5 highest values from the fifth column."
+
+
+DATASETS IDEAS:
+
+    Easy Dataset         - Numerical Attributes, No Missing Values
+
+    Intermediate Dataset - Mixed Data Types, No Missing Values
+
+    Hard Dataset         - Mixed Data Types, With Missing Values
+
+LLMs could be trained on public datasets:
+
+    obscure the data, 
+    rename the columns and categorical attributes, 
+    scale the numerical ones
+    shuffle rows/columns

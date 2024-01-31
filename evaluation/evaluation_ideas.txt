@@ -17,10 +17,10 @@ Korelacje Między Kolumnami:
     "Which columns have the highest correlation?"
 
 Predykcja wartości: 
-    "Can you predict the values for the first column based on the other attributes?"
+    "Use Random Forest to predict the values for the first column based on the other attributes."
 
 Inżynieria Cech: 
-    "How would you apply feature engineering to improve the dataset?"
+    "Standardize the first column."
 
 Wykrywanie Duplikatów: 
     "Are there any duplicate rows in the dataset?"

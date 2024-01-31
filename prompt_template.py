@@ -48,12 +48,11 @@ Action Input: plt.scatter(X_pca[:,0], X_pca[:,1], c=Y); plt.show()
 
 In this shell following packages are already imported:
 import numpy as np; import matplotlib.pyplot as plt; import pandas as pd; import seaborn as sns
-
-This is the df DataFrame you work with:
-{dfhead}
-This DataFrame is already loaded into the shell.
-
 <</SYS>>[/INST]
 
 Question: {input} 
+Thought: First let's take a look at the df.
+Action: python_repl_ast
+Action Input: df.head()
+Observation: {dfhead}
 Thought: {agent_scratchpad}"""

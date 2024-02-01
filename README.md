@@ -32,9 +32,7 @@ uses `langchain` and `llamacpp`
 
 ### RESPONSE CLASSIFICATION
 
-    final answer: correct / wrong
-
-    if final answer == wrong: usefull*?
+    final answer: correct || misstep || wrong
 
     RA  - redundant actions
 
@@ -44,20 +42,33 @@ uses `langchain` and `llamacpp`
 
 ## Easy Dataset         - Numerical Attributes, No Missing Values
 
-| QID | gpt-3.5-turbo-instruct | mistral-7b-instruct-v0.2 | llama-2-13b-chat |
-|:---:|:----------------------:|:------------------------:|:----------------:|
-|1    | wrong + usefull        | correct                  | 
-|2    | wrong + usefull + H    | wrong + usefull + H      |
+| QID | gpt-3.5-turbo-instruct | mistral-7b-instruct-v0.2 |
+|:---:|:----------------------:|:------------------------:|
+|1    | misstep                | correct                  | 
+|2    | misstep + H            | misstep + H              |
 |3    | correct                | correct + RA             |
 |4    | correct                | correct + RA             |
 |5    | correct + RA           | correct                  |
 |6    | correct + RA           | wrong                    |
 |7    | correct                | correct + RA             |
-|8    | correct                | wrong + usefull          |
+|8    | correct                | misstep                  |
 |9    | correct                | wrong                    |
-|10   | correct                | wrong + usefull          |
+|10   | correct                | misstep                  |
 
+## Hard Dataset         - Mixed Data Types, With Missing Values
 
+| QID | gpt-3.5-turbo-instruct | mistral-7b-instruct-v0.2 |
+|:---:|:----------------------:|:------------------------:|
+|1    | misstep                | misstep                  |
+|2    | misstep + H            | wrong                    |
+|3    | correct                | misstep                  |
+|4    | wrong                  | wrong                    |
+|5    | correct                | correct                  |
+|6    | misstep                | wrong                    |
+|7    | misstep                | misstep + H              |
+|8    | correct                | correct + RA             |
+|9    | correct + RA           | correct                  |
+|10   | correct + RA           | correct                  |
 
 
 

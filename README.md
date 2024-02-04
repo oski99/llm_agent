@@ -71,4 +71,12 @@ uses `langchain` and `llamacpp`
 |10   | correct             | correct + RA           | correct                  |
 
 
+## Inference speed (token/s)
 
+| model                           | speed |
+|:-------------------------------:|:-----:|
+| gpt-4-turbo-preview             | 16.63 |
+| gpt-3.5-turbo-instruct          | 54.69 |
+| mistral-7b-instruct-v0.2.Q5_K_M | 7.97  |
+| llama-2-7b-chat.Q5_K_M          | 8.76  |
+| llama-2-13b-chat.Q4_K_M         | 3.60  |

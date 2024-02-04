@@ -42,33 +42,33 @@ uses `langchain` and `llamacpp`
 
 ## Easy Dataset         - Numerical Attributes, No Missing Values
 
-| QID | gpt-3.5-turbo-instruct | mistral-7b-instruct-v0.2 |
-|:---:|:----------------------:|:------------------------:|
-|1    | misstep                | correct                  | 
-|2    | misstep + H            | misstep + H              |
-|3    | correct                | correct + RA             |
-|4    | correct                | correct + RA             |
-|5    | correct + RA           | correct                  |
-|6    | correct + RA           | wrong                    |
-|7    | correct                | correct + RA             |
-|8    | correct                | misstep                  |
-|9    | correct                | wrong                    |
-|10   | correct                | misstep                  |
+| QID | gpt-4-turbo-preview | gpt-3.5-turbo-instruct | mistral-7b-instruct-v0.2 | 
+|:---:|:-------------------:|:----------------------:|:------------------------:|
+|1    | correct             | misstep                | correct                  |
+|2    | correct             | misstep + H            | misstep + H              | 
+|3    | correct             | correct                | correct + RA             |
+|4    | correct             | correct                | correct + RA             |
+|5    | correct             | correct + RA           | correct                  |
+|6    | correct             | correct + RA           | wrong                    |
+|7    | correct             | correct                | correct + RA             |
+|8    | correct             | correct                | misstep                  |
+|9    | correct             | correct                | wrong                    |
+|10   | correct             | correct                | misstep                  |
 
 ## Hard Dataset         - Mixed Data Types, With Missing Values
 
-| QID | gpt-3.5-turbo-instruct | mistral-7b-instruct-v0.2 |
-|:---:|:----------------------:|:------------------------:|
-|1    | misstep                | misstep                  |
-|2    | misstep + H            | wrong                    |
-|3    | correct                | misstep                  |
-|4    | wrong                  | wrong                    |
-|5    | correct                | correct                  |
-|6    | misstep                | wrong                    |
-|7    | misstep                | misstep + H              |
-|8    | correct                | correct + RA             |
-|9    | correct + RA           | correct                  |
-|10   | correct + RA           | correct                  |
+| QID | gpt-4-turbo-preview | gpt-3.5-turbo-instruct | mistral-7b-instruct-v0.2 |
+|:---:|:-------------------:|:----------------------:|:------------------------:|
+|1    | misstep             | misstep                | misstep                  |
+|2    | correct             | misstep + H            | wrong                    |
+|3    | correct             | correct                | misstep                  |
+|4    | correct             | wrong                  | wrong                    |
+|5    | correct             | correct                | correct                  |
+|6    | correct             | misstep                | wrong                    |
+|7    | misstep             | misstep                | misstep + H              |
+|8    | correct + RA        | correct                | correct + RA             |
+|9    | correct             | correct + RA           | correct                  |
+|10   | correct             | correct + RA           | correct                  |
 
 
 

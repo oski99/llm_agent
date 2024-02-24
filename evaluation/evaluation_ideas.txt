@@ -33,8 +33,6 @@ DATASETS IDEAS:
 
     Easy Dataset         - Numerical Attributes, No Missing Values
 
-    Intermediate Dataset - Mixed Data Types, No Missing Values
-
     Hard Dataset         - Mixed Data Types, With Missing Values
 
 LLMs could be trained on public datasets:

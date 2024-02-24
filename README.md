@@ -32,7 +32,7 @@ uses `langchain` and `llamacpp`
 
 ### RESPONSE CLASSIFICATION
 
-    final answer: correct || misstep || wrong
+    final answer: correct || misstep* || wrong
 
     RA  - redundant actions
 
